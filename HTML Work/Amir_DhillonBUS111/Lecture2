@@ -1,0 +1,125 @@
+	<!DOCTYPE html>
+	
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>HTML</title>
+	</head>
+	<body>
+	
+	<h1> HTML</h1>
+	<p> </p>
+	
+	<!--
+
+	<p> 
+		<label> Date
+				<input type = "date" />
+				(yyyy-mm-dd)
+		</label>
+	</p>
+	
+
+	-->
+	<p>
+		<label> First Name: 
+		<input type = "First Name" </>
+		</label>
+	</p> 
+	
+	<p>
+	<label>State
+	<input type = "Select a State" />
+	
+	(yyyy-mm-ddThh:mm, such as 2012-01-2703:15)
+	</label>
+	
+	</p> 
+	
+	<!--
+
+	<p>
+	<label> Email :
+	<input type = "email" placeholder = "name@domain.com"
+	required /> (name@domain.com)
+	</label> 
+	</p>
+	
+	<p>
+		<label> Month:
+		<input type = "month" /> (yyyy-mm)
+		</label> 
+	</p>
+	-->
+	
+	<!--
+	<p>
+		<label>Number:
+			<input type = "number"
+				min ="p"
+				max = "?"
+				step = "l"
+				value = "4" />
+		</label> (Enter a number beween 0 and 7)
+	</p>
+	-->
+	<p> 
+		<label>Range:
+			0 <input type = "range"
+			min = "0"
+			max = "20"
+			value = "10" /> 20 
+		</label>
+	</p>
+	
+	<p>
+		<label>Search:
+			<input type = "search" placeholder = "search query" />
+		</label> (Ener your search query here)
+	</p>
+	<p>
+		<label>Tel:
+			<input type = "tel" placeholder = "(###)###-####"
+			pattern = "\(\d{3}\) + \d{3} - \d{4}" required />
+			(###)###-###
+		</label>
+	</p>
+	<p>
+		<label>Time:
+		<input type = "time"/> (hh:mm:ss:ff)
+		</label>
+
+	</p>
+	<p>
+	
+	<label>URL:
+	<input type = "url"
+	placeholder= "http://www.domainname.com" />
+		(http://www.domainname.com)
+	</label>
+	</p>	
+
+	<p> 
+	<label>Week:
+	<input type = "week" />
+
+	</label>
+
+	</p>	
+
+<style type = "text/css">
+
+	mark {
+    background-color: yellow;
+    color: black;
+	} 
+
+
+
+	<p>Autocomplete should be allowed for a form</p>
+	<br></br>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia vulputate dolor et fermentum. Aenean sed risus viverra, interdum neque ut, soledas ligula. Aenean vel lacus dolor. Vivamus elementum erat diam, sed mattis dui tempus vitae. Nune vel ex lacus. Suspendisse mollis enim vitae ante suscipt saggitis. Integer commodo orei   </p>
+
+
+	</body>
+	</html>
